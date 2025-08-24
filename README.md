@@ -66,8 +66,9 @@ sudo systemctl start mysql
 # 8. Access the app in browser
 http://localhost/Campus_event_management_system/
 
-📂 Project Structure
+## 📂 Project Structure
 
+````txt
 Campus_event_management_system/
 │── config.php         # Database and environment configuration
 │── index.php          # Main entry point / homepage
