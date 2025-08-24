@@ -66,15 +66,21 @@ sudo systemctl start mysql
 # 8. Access the app in browser
 http://localhost/Campus_event_management_system/
 
-##Project Structure
-/ (root)
-│── config.php        # Database and environment config
-│── index.php         # Main entry point or routing handler
-│── css/              # Stylesheets
-│── js/               # JavaScript files
-│── images/           # Image assets
-│── includes/         # Shared PHP includes (e.g. header, footer)
-│── templates/        # View templates
-│── organizer/        # Organizer-specific modules (e.g. event creation)
-│── user/             # User-facing modules (e.g. registration, login)
-│── public/           # Publicly accessible files (if different from root)
+📂 Project Structure
+
+Campus_event_management_system/
+│── config.php         # Database and environment configuration
+│── index.php          # Main entry point / homepage
+│
+├── css/               # Stylesheets (UI design, layout, themes)
+├── js/                # JavaScript files (interactivity, dynamic features)
+├── images/            # Image assets (logos, banners, event posters)
+│
+├── includes/          # Shared PHP includes (header, footer, navbar, DB connection)
+├── templates/         # View templates (HTML/PHP page structures)
+│
+├── organizer/         # Organizer-specific modules (create/manage events)
+├── user/              # User-facing modules (registration, login, profile, event booking)
+│
+└── public/            # Publicly accessible files (if separated from core PHP logic)
+
